@@ -4,7 +4,6 @@ import java.util.Random;
  * AI class that can calculate a connect 4 move
  *
  * @author Kuno de Leeuw-Kent
- * @version v2.2.1
  */
 
 public class AI {
