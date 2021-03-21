@@ -5,7 +5,6 @@
  * Runs the main game loops and start up options
  * 
  * @author Kuno de Leeuw-Kent
- * @version v2.2.1
  */
 
 public class main {
