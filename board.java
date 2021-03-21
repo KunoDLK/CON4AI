@@ -2,7 +2,6 @@
  * Board class for the Connect 4 game
  * 
  * @author Kuno de Leeuw-Kent
- * @version v2.2.1
  */
 public class board {
 
