@@ -2,7 +2,6 @@
  * Displays the game board to the console
  *
  * @author Kuno de Leeuw-Kent
- * @version v2.2.1
  */
 public class UI {
 
