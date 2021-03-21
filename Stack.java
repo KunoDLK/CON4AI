@@ -3,7 +3,6 @@
  * Kuno's stacker - (remember to rotate your stack of plates every so often)
  * 
  * @author Kuno de Leeuw-Kent
- * @version v2.2.1
  */
 public class Stack {
 
