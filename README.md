@@ -1,4 +1,6 @@
 # Connect 4 AI
-This is my Connect 4 java program I had to do for collage
+This is my Connect 4 java program.
 
-It is my very first full size project i have completed looking forward to the next
+This is my first full size project that I have done. Thorfore i picked a "clasic" project to and i am happy with the results.
+
+Looking forward to the next project.
