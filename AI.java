@@ -1,7 +1,7 @@
 import java.util.Random;
 
 /**
- * AI class that can calculate a connect 4 move
+ * AI class that prosseses scores for each move
  *
  * @author Kuno de Leeuw-Kent
  */
