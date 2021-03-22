@@ -1,4 +1,9 @@
-
+/**
+ * Compute node For the MiniMax algorthm
+ * 
+ * Many instances of this class are ran at the same time.
+ * Alowes full use of the prossesor
+ */
 class minimaxComputeNode extends AI implements Runnable {
 
     String node;
