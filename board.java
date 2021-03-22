@@ -52,7 +52,7 @@ public class board {
     }
 
     /**
-     * calls UI to display the current gameboard
+     * Calls UI to display the current gameboard
      */
     public void display_Current_Board() {
 
@@ -160,7 +160,7 @@ public class board {
     /**
      * Colects the users move mid game and also deals with commmands given "/help"
      * 
-     * if the user give a number then the program will use that number as the move
+     * If the user give a number then the program will use that number as the move
      * played IF the user give anything starting with '/' then it is taken as a
      * command
      * 
@@ -180,7 +180,7 @@ public class board {
             string = Console.readLine();
             string = string.toLowerCase();
 
-            // tries to get the number if the whole string is a number
+            // Tries to get the number if the whole string is a number
             try {
                 intVal = Integer.valueOf(string);
                 number = true;
@@ -192,7 +192,7 @@ public class board {
                 Console.println("empty field");
             }
 
-            // decting if there is a command
+            // Decting if there is a command
             else if (string.substring(0, 1).contains("/")) {
 
                 if (string.contains("/exit")) {
@@ -395,21 +395,21 @@ public class board {
         int chain_Length;
         String type;
 
-        // for every column on the board
+        // For every column on the board
         for (int i = 0; i < main.board_Width; i++) {
 
-            // starting at the botom of the board unill the top counter indicated by the
+            // Starting at the botom of the board unill the top counter indicated by the
             // stack
             for (int j = main.board_Hight - 1; j >= stack_Array[i].getTop(); j--) {
 
-                // finds the type of counter it is
+                // Finds the type of counter it is
                 type = game_board[j][i];
 
                 if (show) {
 
                     Console.println(type + " at (" + i + ", " + j + ")");
                 }
-                // for every reversibe direction
+                // For every reversibe direction
                 for (int k = 0; k < 4; k++) {
 
                     end = false;
@@ -420,10 +420,10 @@ public class board {
 
                     current_Y = j;
 
-                    // while not at the end of the chain of the counters in a row
+                    // While not at the end of the chain of the counters in a row
                     while (!end) {
 
-                        // if there is a 4 in a row
+                        // If there is a 4 in a row
                         if (chain_Length == 3) {
 
                             if (type.equals("X")) {
@@ -439,7 +439,7 @@ public class board {
                             next_X = current_X + var_DirX;
                             next_Y = current_Y + var_DirY;
 
-                            // checks if the next spot is the direction is on the board
+                            // Checks if the next spot is the direction is on the board
                             if (((next_X >= 0) && (next_X <= (main.board_Width - 1)))
                                     && ((next_Y <= 0) && (next_Y >= (main.board_Hight - 1)))) {
 
