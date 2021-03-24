@@ -24,7 +24,7 @@ public class board {
     }
 
     /**
-     * generate center wieghting scores
+     * generate centre weighting scores
      */
     public static int[] gen_Center_W_Scores() {
 

@@ -105,14 +105,6 @@ public class Stack {
     }
 
     /**
-     * @return position pointer for the top of the stack
-     */
-    public int top() {
-
-        return top;
-    }
-
-    /**
      * @param position, sets pointer to value position
      */
     public void set_Top(int position) {

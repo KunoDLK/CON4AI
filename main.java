@@ -366,11 +366,11 @@ public class main {
         }
     }
 
-    /***
+    /**
      * The one player loop for the 1 Player game mode
      * 
      * @param first decides if the user will make first play or not
-     */
+     **/
     public static void Gameloop_AI(boolean first) {
 
         board board = new board();
