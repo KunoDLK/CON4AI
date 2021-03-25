@@ -152,7 +152,7 @@ public class board {
 
                 clone[i].Push(stack_Array[i].get(j));
             }
-            clone[i].set_Top(stack_Array[i].top());
+            clone[i].set_Top(stack_Array[i].getTop());
         }
         return clone;
     }
